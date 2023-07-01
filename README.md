@@ -66,13 +66,13 @@ Here's the data:
     * Link to a recording of the run.
         * This is the same as "proof" if "proof_status" = 4.
 * character
-    * Signed 16bit Integer
+    * Signed 16bit Integer (Can NULL)
     * Character ID according to [Tockdom.com](https://wiki.tockdom.com/wiki/List_of_Identifiers#Characters)
 * vehicle
-    * Signed 16bit Integer
+    * Signed 16bit Integer (Can NULL)
     * Vehicle ID according to [Tockdom.com](https://wiki.tockdom.com/wiki/List_of_Identifiers#Vehicles)
 * controller
-    * Signed 16bit Integer
+    * Signed 16bit Integer (Can NULL)
     * Controller ID, UNSAFE, there could be values different than the ones listed below.
         * 0 = Wii Wheel
         * 1 = Nunchuck + Wiimote
