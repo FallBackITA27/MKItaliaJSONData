@@ -41,7 +41,7 @@ Here's the data:
     * Indicates if time is a flap.
 * is_200cc
     * bool
-    * Inficates if time is played in 200cc.
+    * Indicates if time is played in 200cc.
 * mii_name
     * String (Can NULL)
     * Mii name used for the run.
