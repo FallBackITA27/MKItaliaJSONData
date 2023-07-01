@@ -85,13 +85,13 @@ Here's the data:
         * true = automatic
         * false = manual
 * lap1
-    * Signed 16bit Integer (Can NULL)
+    * Signed 32bit Integer (Can NULL)
     * Stores in ms the length of lap 1
 * lap2
-    * Signed 16bit Integer (Can NULL)
+    * Signed 32bit Integer (Can NULL)
     * Stores in ms the length of lap 2
 * lap3
-    * Signed 16bit Integer (Can NULL)
+    * Signed 32bit Integer (Can NULL)
     * Stores in ms the length of lap 3
 * date
     * String (Can NULL)
