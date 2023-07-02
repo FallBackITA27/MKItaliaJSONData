@@ -5,12 +5,14 @@ This is a backup of data in JSON format, so that it's accessible for anyone even
 * [MKW Documentation](#mkw)
     * [Raw Data](#mkw-raw)
     * [Sorted Data](#mkw-sorted)
+        * [By Track](#mkw-by-track)
+        * [By Player](#mkw-by-player)
 
 ## MKW
 Here's the data:
 * player_id
     * Signed 32bit Integer
-    * Holds the user id.
+    * Holds the user id. It's One-based, there's no id 0.
 * time
     * Signed 32bit Integer
     * the time on the track stored in milliseconds.
@@ -97,10 +99,14 @@ Here's the data:
     * String (Can NULL)
     * Date of the run stored in "yyyy-mm-dd" format.
 
-### MKW Raw
+## MKW Raw
 MKW Raw hosts every time in the database unfiltered.
 
-### MKW Sorted
-MKW Sorted hosts every time sorted by track and category.
+## MKW Sorted
+MKW Sorted hosts every time sorted by something.
 
-Proper usage is ./mkw/sorted/:track/:category/data.json
+### MKW By Track
+Hosts every time sorted by track and category. Proper usage is ./mkw/by_track/:track/:category/data.json
+
+### MKW By Player
+Hosts every time sorted by player_id. Proper usage is ./mkw/by_player/:player_id/data.json
