@@ -102,7 +102,7 @@ Here's the data:
     * Date of the run stored in "yyyy-mm-dd" format.
 
 ## MKW Raw
-MKW Raw hosts every time in the database unfiltered.
+MKW Raw hosts every time in the database unfiltered. This is meant for last ditch efforts as the file is quite heavy, it's not reccomended.
 
 ## MKW Sorted
 MKW Sorted hosts every time sorted by something.
