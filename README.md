@@ -1,6 +1,8 @@
 # MKItaliaJSONData
 This is a backup of data in JSON format, so that it's accessible for anyone even when the site is down. Might not always be up to date.
 
+The files can be accessed through the https://raw.githubusercontent.com/FallBackITA27/MKItaliaJSONData/main/ URL. All the URLs listed below are its subdomains.
+
 # Documentation
 * [MKW Documentation](#mkw)
     * [Raw Data](#mkw-raw)
