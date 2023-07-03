@@ -52,7 +52,7 @@ Here's the data:
 * mii_data
     * String (Can NULL)
     * Mii data used for the run.
-        * This is used for rendering miis. You can render these by using https://studio.mii.nintendo.com/miis/image.png?data=:mii_data=normal&width=512&bgColor=FFFFFF00&clothesColor=default&cameraXRotate=0&cameraYRotate=335&cameraZRotate=0&characterXRotate=0&characterYRotate=0&characterZRotate=0&lightDirectionMode=none&instanceCount=1&instanceRotationMode=model
+        * This is used for rendering miis. You can render these by using https://studio.mii.nintendo.com/miis/image.png?data=:mii_data&type=face&expression=normal&width=128&bgColor=FFFFFF00&clothesColor=default&cameraXRotate=0&cameraYRotate=335&cameraZRotate=0&characterXRotate=0&characterYRotate=0&characterZRotate=0&lightDirectionMode=none&instanceCount=1&instanceRotationMode=model
         * Example:
         
         ![Alt text](https://studio.mii.nintendo.com/miis/image.png?data=000f165d65747e849da0abafb5b7bab4bdbec4cbd3dae6ed040d141b1a2146404b52574a504a4961737b828c93988f&type=face&expression=normal&width=128&bgColor=FFFFFF00&clothesColor=default&cameraXRotate=0&cameraYRotate=335&cameraZRotate=0&characterXRotate=0&characterYRotate=0&characterZRotate=0&lightDirectionMode=none&instanceCount=1&instanceRotationMode=model)
