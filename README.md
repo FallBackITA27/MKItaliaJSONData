@@ -22,7 +22,7 @@ The files can be accessed through the https://raw.githubusercontent.com/FallBack
     * Signed 32bit Integer (Can NULL)
     * Holds the user's region.
         * Refer to this JSON
-        ```
+        ```json
         {
             "0":  "Unknown",
             "2":  "Lazio",
@@ -51,7 +51,7 @@ The files can be accessed through the https://raw.githubusercontent.com/FallBack
     * Signed 32bit Integer (Can NULL)
     * Holds the user's region.
         * Refer to this JSON
-        ```
+        ```json
         {
             "0": {
                 "0": "Sconosciuta"
