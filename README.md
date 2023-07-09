@@ -276,18 +276,28 @@ Here's the data:
 * category
     * Signed 16bit Integer
     * Stores the category it's on.
-        * 0 = No Glitch No Shortcut (Normal)
-        * 1 = Shortcut
-        * 2 = Glitch
+        * Refer to this JSON
+        ```json
+        {
+            "0": "Normal",
+            "1": "Shortcut",
+            "2": "Glitch"
+        }
+        ``` 
 * proof_status
     * Signed 16bit Integer
     * Stores the proof's status.
-        * 0 = No Proof
-        * 1 = To Be Announced
-        * 2 = Photo
-        * 3 = Video
-        * 4 = Revolution Kart Ghost Data (RKG File)
-        * 5 = Chadsoft Ghost
+        * Refer to this JSON
+        ```json
+        {
+            "0": "No Proof",
+            "1": "To Be Announced",
+            "2": "Photo",
+            "3": "Video",
+            "4": "Revolution Kart Ghost Data (RKG File)",
+            "5": "Chadsoft Ghost",
+        }
+        ``` 
 * is_pb
     * bool
     * Indicates if time is a PB.
@@ -324,11 +334,16 @@ Here's the data:
 * controller
     * Signed 16bit Integer (Can NULL)
     * Controller ID, UNSAFE, there could be values different than the ones listed below.
-        * 0 = Wii Wheel
-        * 1 = Nunchuck + Wiimote
-        * 2 = Classic Controller
-        * 3 = Gamecube Controller
-        * 25 = Unknown. Presumably USB GCN?
+        * Refer to this JSON
+        ```json
+        {
+            "0": "Wii Wheel",
+            "1": "Nunchuck + Wiimote",
+            "2": "Classic Controller",
+            "3": "Gamecube Controller",
+            "25": "Unknown. Presumably USB GCN?",
+        }
+        ``` 
 * drift
     * bool (Can NULL)
     * Holds whether the run uses automatic or manual drift
